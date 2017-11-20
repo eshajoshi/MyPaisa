@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622096501FC377A5005B9439 /* MyPaisaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6220964D1FC37770005B9439 /* MyPaisaKit.framework */; };
+		622096511FC377A5005B9439 /* MyPaisaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6220964D1FC37770005B9439 /* MyPaisaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		624984F21FBD284E004A87B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624984F11FBD284E004A87B9 /* AppDelegate.swift */; };
 		624984F41FBD284E004A87B9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624984F31FBD284E004A87B9 /* FirstViewController.swift */; };
 		624984F61FBD284E004A87B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624984F51FBD284E004A87B9 /* SecondViewController.swift */; };
@@ -15,7 +17,39 @@
 		624984FE1FBD284E004A87B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624984FC1FBD284E004A87B9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6220964C1FC37770005B9439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622096481FC37770005B9439 /* MyPaisaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6220962D1FC37010005B9439;
+			remoteInfo = MyPaisaKit;
+		};
+		622096521FC377A5005B9439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622096481FC37770005B9439 /* MyPaisaKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6220962C1FC37010005B9439;
+			remoteInfo = MyPaisaKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		622096471FC37710005B9439 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				622096511FC377A5005B9439 /* MyPaisaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		622096481FC37770005B9439 /* MyPaisaKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MyPaisaKit.xcodeproj; sourceTree = "<group>"; };
 		624984EE1FBD284E004A87B9 /* MyPaisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPaisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		624984F11FBD284E004A87B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		624984F31FBD284E004A87B9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,15 +65,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622096501FC377A5005B9439 /* MyPaisaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622096491FC37770005B9439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6220964D1FC37770005B9439 /* MyPaisaKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		624984E51FBD284E004A87B9 = {
 			isa = PBXGroup;
 			children = (
+				622096481FC37770005B9439 /* MyPaisaKit.xcodeproj */,
 				624984F01FBD284E004A87B9 /* MyPaisa */,
 				624984EF1FBD284E004A87B9 /* Products */,
 			);
@@ -77,10 +121,12 @@
 				624984EA1FBD284E004A87B9 /* Sources */,
 				624984EB1FBD284E004A87B9 /* Frameworks */,
 				624984EC1FBD284E004A87B9 /* Resources */,
+				622096471FC37710005B9439 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				622096531FC377A5005B9439 /* PBXTargetDependency */,
 			);
 			name = MyPaisa;
 			productName = MyPaisa;
@@ -114,12 +160,28 @@
 			mainGroup = 624984E51FBD284E004A87B9;
 			productRefGroup = 624984EF1FBD284E004A87B9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 622096491FC37770005B9439 /* Products */;
+					ProjectRef = 622096481FC37770005B9439 /* MyPaisaKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				624984ED1FBD284E004A87B9 /* MyPaisa */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6220964D1FC37770005B9439 /* MyPaisaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MyPaisaKit.framework;
+			remoteRef = 6220964C1FC37770005B9439 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		624984EC1FBD284E004A87B9 /* Resources */ = {
@@ -146,6 +208,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		622096531FC377A5005B9439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyPaisaKit;
+			targetProxy = 622096521FC377A5005B9439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		624984F71FBD284E004A87B9 /* Main.storyboard */ = {
