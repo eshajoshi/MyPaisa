@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		622096321FC37010005B9439 /* MyPaisaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 622096301FC37010005B9439 /* MyPaisaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625F89AD1FC394850001E465 /* MOCK_getAllTransactionsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6220962D1FC37010005B9439 /* MyPaisaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPaisaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		622096301FC37010005B9439 /* MyPaisaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPaisaKit.h; sourceTree = "<group>"; };
 		622096311FC37010005B9439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOCK_getAllTransactionsResponse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		6220962F1FC37010005B9439 /* MyPaisaKit */ = {
 			isa = PBXGroup;
 			children = (
+				625F89AE1FC3948A0001E465 /* Mock Responses */,
 				622096301FC37010005B9439 /* MyPaisaKit.h */,
 				622096311FC37010005B9439 /* Info.plist */,
 			);
@@ -58,6 +61,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		625F89AE1FC3948A0001E465 /* Mock Responses */ = {
+			isa = PBXGroup;
+			children = (
+				625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */,
+			);
+			path = "Mock Responses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625F89AD1FC394850001E465 /* MOCK_getAllTransactionsResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
