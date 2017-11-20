@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MyPaisaKit
 
 class FirstViewController: UIViewController {
 
