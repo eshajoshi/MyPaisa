@@ -1,0 +1,446 @@
+{
+  "range": "'All Transactions'!A1:H200",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "Date",
+      "Restaurant/Store/Org/Person",
+      "Location",
+      "Item(s)",
+      "Amount ($)",
+      "Category",
+      "Income/Expense",
+      "Type"
+    ],
+    [
+      "11/19/2017",
+      "Khoobsurat Threading Salon",
+      "Sunnyvale, CA",
+      "Gift Card",
+      "-25.00",
+      "Misc",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/19/2017",
+      "Venmo - Neha Jagannath",
+      "Mobile app",
+      "Nourish Cafe shared foods: Acai Bowl, Bread platter",
+      "-12.38",
+      "Food",
+      "Expense",
+      "From Bank Account (2595)"
+    ],
+    [
+      "11/19/2017",
+      "Cumaica Coffee",
+      "San Francisco, CA",
+      "Cappuccino",
+      "-3.76",
+      "Coffee",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/18/2017",
+      "New York Times Digital",
+      "Credit Giveback",
+      "Reimbursement for Subscription",
+      "39.95",
+      "Reimbursement",
+      "Income",
+      "Credit"
+    ],
+    [
+      "11/18/2017",
+      "Safeway",
+      "San Francisco, CA",
+      "Gnocchi for Sruthi's Friendsgiving",
+      "-4.49",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/18/2017",
+      "Trader Joe's",
+      "Sunnyvale, CA",
+      "Gnocchi, Mushrooms, Beans for Sruthi's Friendsgiving",
+      "-8.75",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/17/2017",
+      "Amazon Prime",
+      "Credit Giveback",
+      "Reimbursement for Everest Waist Pack",
+      "4.11",
+      "Reimbursement",
+      "Income",
+      "Credit"
+    ],
+    [
+      "11/17/2017",
+      "Apple Inc.",
+      "Direct Deposit",
+      "Paycheck: 10/28/2017 -  11/10/2017",
+      "2371.05",
+      "Paycheck",
+      "Income",
+      "To Bank Account (2595)"
+    ],
+    [
+      "11/14/2017",
+      "Venmo - Kymmara McGill",
+      "Mobile",
+      "Jon's Birthday Cake",
+      "-14.12",
+      "Misc",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/14/2017",
+      "Kymmara McGill",
+      "Sunnyvale, CA",
+      "Birthday cards for Jon",
+      "5.00",
+      "Reimbursement",
+      "Income",
+      "Cash"
+    ],
+    [
+      "11/14/2017",
+      "Target ",
+      "Sunnyvale, CA",
+      "Birthday cards for Jon, Srirarcha",
+      "-13.05",
+      "Misc",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/14/2017",
+      "Venmo - Mihir Joshi",
+      "Mobile app",
+      "Spotify November 2015 ",
+      "-5.00",
+      "Misc",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/12/2017",
+      "Venmo - Jessica Gillan",
+      "Mobile app",
+      "Horsefeather Sun Country",
+      "-15.69",
+      "Alc",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/12/2017",
+      "Safeway",
+      "San Francisco, CA",
+      "Apples, Jam",
+      "-6.78",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/12/2017",
+      "Arizmendi Bakery",
+      "San Francisco, CA",
+      "Pumpkin Muffin, Cowgirl Cookie",
+      "-5.25",
+      "Food",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/11/2017",
+      "Venmo - Shivani Kuckreja",
+      "Mobile app",
+      "Half of Tofu Stone Pot",
+      "-5.43",
+      "Food",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/11/2017",
+      "Venmo - Jessica Gillan",
+      "Mobile app",
+      "Cowgirl Creamery Cheese and Crackers",
+      "-9.00",
+      "Food",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/11/2017",
+      "Divisadero 76",
+      "San Francisco, CA",
+      "Gas",
+      "-40.64",
+      "Gas",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/11/2017",
+      "Central Coffee and Tea",
+      "San Francisco, CA",
+      "Single cappuccino",
+      "-2.95",
+      "Coffee",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/10/2017",
+      "Venmo - Jessica Gillan",
+      "Mobile app",
+      "Reimbursement for some groceries (she shouldn't have)",
+      "40.00",
+      "Reimbursement",
+      "Income",
+      "To Venmo Balance"
+    ],
+    [
+      "11/10/2017",
+      "Lucky",
+      "San Francisco, CA",
+      "All groceries for Jessica's visit",
+      "-53.30",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/10/2017",
+      "Geico Insurance Agency",
+      "Website",
+      "November 2017 Renter's Insurance",
+      "-22.11",
+      "2079 Fulton",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/9/2017",
+      "Check #169 - Kanchana Venkat",
+      "Direct Withdrawal",
+      "September and October 2017 Dance Classes: 9/5, 9/19, 10/3, 10/16, 10/20, 10/23, 10/27, 10/30",
+      "-225.00",
+      "Dance Class",
+      "Expense",
+      "From Bank Account (2595)"
+    ],
+    [
+      "11/9/2017",
+      "Lyft",
+      "Mobile app",
+      "Book club transportation: Chanamon's Apt -\u003e 2079 Fulton",
+      "-8.34",
+      "Transportation",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/9/2017",
+      "Venmo - Abby George",
+      "Mobile app",
+      "Hi Tops Trivia Reimbursement",
+      "16.63",
+      "2079 Fulton",
+      "Income",
+      "To Venmo Balance"
+    ],
+    [
+      "11/9/2017",
+      "Venmo - Katelyn Dunaski",
+      "Mobile app",
+      "Splitwise Expenses",
+      "-22.11",
+      "2079 Fulton",
+      "Expense",
+      "From Bank Account (2595)"
+    ],
+    [
+      "11/9/2017",
+      "Venmo - Abby George",
+      "Mobile app",
+      "Splitwise Expenses",
+      "-47.78",
+      "2079 Fulton",
+      "Expense",
+      "From Bank Account (2595)"
+    ],
+    [
+      "11/8/2017",
+      "Target ",
+      "Sunnyvale, CA",
+      "Monica's Birthday Card and Candy, Book Club Chips",
+      "-8.62",
+      "Misc",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/7/2017",
+      "Bank of America",
+      "Direct Deposit",
+      "CashBack Deals",
+      "1.00",
+      "Misc",
+      "Income",
+      "To Bank Account (2595)"
+    ],
+    [
+      "11/7/2017",
+      "Pluto's",
+      "San Jose, CA",
+      "Side of Veggies",
+      "-3.00",
+      "Food",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/7/2017",
+      "Bharat Bazar",
+      "Sunnyvale, CA",
+      "Mitai, Chevda",
+      "-8.98",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/7/2017",
+      "New Seasons Market",
+      "Sunnyvale, CA",
+      "Fig Bars, Some peanut butter, Brownie",
+      "-7.88",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/6/2017",
+      "Amazon Prime",
+      "Website",
+      "Reimbursement for Everest Waist Pack",
+      "8.35",
+      "Reimbursement",
+      "Income",
+      "Credit"
+    ],
+    [
+      "11/5/2017",
+      "Peets Coffee",
+      "San Francisco, CA",
+      "Havana Cappuccino",
+      "-4.05",
+      "Coffee",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/4/2017",
+      "Venmo - Rustin Manafian",
+      "Mobile app",
+      "Trader Joe's: Chocolate, Bars",
+      "-4.20",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/4/2017",
+      "Uber",
+      "Mobile app",
+      "Ghirardelli Square -\u003e 2079 Fulton ",
+      "-13.64",
+      "Transportation",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/3/2017",
+      "Check #170 - Alexis Solomou",
+      "Direct Withdrawal",
+      "2079 Fulton Street: November 2017 Rent",
+      "-1583.33",
+      "2079 Fulton",
+      "Expense",
+      "From Bank Account (2595)"
+    ],
+    [
+      "11/3/2017",
+      "Venmo - Tergel Pure",
+      "Mobile app",
+      "Nick's Tacos ",
+      "-12.00",
+      "Food",
+      "Expense",
+      "From Bank Account (2595)"
+    ],
+    [
+      "11/3/2017",
+      "Venmo - Neha Jagannath",
+      "Mobile app",
+      "Reimbursement for Peets coffee",
+      "2.30",
+      "Reimbursement",
+      "Income",
+      "To Venmo Balance"
+    ],
+    [
+      "11/3/2017",
+      "Peets Coffee",
+      "San Francisco, CA",
+      "Post-run coffees for Neha and me",
+      "-5.25",
+      "Coffee",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/3/2017",
+      "Amazon Prime",
+      "Website",
+      "Everest Signature Waist Pack - Standard, Black, One Size",
+      "-12.68",
+      "Misc",
+      "Expense",
+      "Credit"
+    ],
+    [
+      "11/3/2017",
+      "Apple Inc.",
+      "Direct Deposit",
+      "Paycheck: 10/8/2017 -  10/27/2017",
+      "2323.31",
+      "Paycheck",
+      "Income",
+      "To Bank Account (2595)"
+    ],
+    [
+      "11/1/2017",
+      "HelloFresh",
+      "Website",
+      "6 meals for week of Nov. 5 (I thought I cancelled my membership!!)",
+      "-59.94",
+      "Grocery",
+      "Expense",
+      "Credit"
+    ]
+  ]
+}
