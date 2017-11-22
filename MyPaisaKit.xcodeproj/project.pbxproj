@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		622096321FC37010005B9439 /* MyPaisaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 622096301FC37010005B9439 /* MyPaisaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		625F89AD1FC394850001E465 /* MOCK_getAllTransactionsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */; };
+		625F89B11FC505A20001E465 /* MyPaisa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		622096301FC37010005B9439 /* MyPaisaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPaisaKit.h; sourceTree = "<group>"; };
 		622096311FC37010005B9439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOCK_getAllTransactionsResponse.json; sourceTree = "<group>"; };
+		625F89B01FC505A20001E465 /* MyPaisa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyPaisa.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				625F89AE1FC3948A0001E465 /* Mock Responses */,
+				625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */,
 				622096301FC37010005B9439 /* MyPaisaKit.h */,
 				622096311FC37010005B9439 /* Info.plist */,
 			);
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625F89B11FC505A20001E465 /* MyPaisa.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +338,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				625F89B01FC505A20001E465 /* MyPaisa.xcdatamodel */,
+			);
+			currentVersion = 625F89B01FC505A20001E465 /* MyPaisa.xcdatamodel */;
+			path = MyPaisa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 622096241FC37010005B9439 /* Project object */;
 }
