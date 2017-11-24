@@ -2,12 +2,25 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B25c" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
         <attribute name="amountRemaining" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="itemsArray" attributeType="Transformable" customClassName="[String]" syncable="YES"/>
         <attribute name="month" attributeType="String" syncable="YES"/>
-        <attribute name="monthlyBudget" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="monthlyBudget" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
         <attribute name="totalExpenses" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="allTransactions" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Transaction" inverseName="category" inverseEntity="Transaction" syncable="YES"/>
+    </entity>
+    <entity name="Transaction" representedClassName="Transaction" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <attribute name="isIncome" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="location" attributeType="String" syncable="YES"/>
+        <attribute name="supplier" attributeType="String" syncable="YES"/>
+        <attribute name="type" attributeType="String" syncable="YES"/>
+        <relationship name="category" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="allTransactions" inverseEntity="Category" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Category" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Category" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Transaction" positionX="-54" positionY="27" width="128" height="165"/>
     </elements>
 </model>
