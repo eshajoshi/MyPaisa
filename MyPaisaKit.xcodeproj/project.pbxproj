@@ -10,6 +10,10 @@
 		622096321FC37010005B9439 /* MyPaisaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 622096301FC37010005B9439 /* MyPaisaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		625F89AD1FC394850001E465 /* MOCK_getAllTransactionsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */; };
 		625F89B11FC505A20001E465 /* MyPaisa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */; };
+		625F89D81FC7B2180001E465 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D41FC7B2180001E465 /* Category+CoreDataClass.swift */; };
+		625F89D91FC7B2180001E465 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D51FC7B2180001E465 /* Category+CoreDataProperties.swift */; };
+		625F89DA1FC7B2180001E465 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D61FC7B2180001E465 /* Transaction+CoreDataClass.swift */; };
+		625F89DB1FC7B2180001E465 /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D71FC7B2180001E465 /* Transaction+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +22,10 @@
 		622096311FC37010005B9439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOCK_getAllTransactionsResponse.json; sourceTree = "<group>"; };
 		625F89B01FC505A20001E465 /* MyPaisa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyPaisa.xcdatamodel; sourceTree = "<group>"; };
+		625F89D41FC7B2180001E465 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		625F89D51FC7B2180001E465 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		625F89D61FC7B2180001E465 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		625F89D71FC7B2180001E465 /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +59,8 @@
 		6220962F1FC37010005B9439 /* MyPaisaKit */ = {
 			isa = PBXGroup;
 			children = (
-				625F89AE1FC3948A0001E465 /* Mock Responses */,
+				625F89DD1FC7B2520001E465 /* Mock Responses */,
+				625F89DC1FC7B2260001E465 /* Core Data Model */,
 				625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */,
 				622096301FC37010005B9439 /* MyPaisaKit.h */,
 				622096311FC37010005B9439 /* Info.plist */,
@@ -66,12 +75,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		625F89AE1FC3948A0001E465 /* Mock Responses */ = {
+		625F89DC1FC7B2260001E465 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				625F89D41FC7B2180001E465 /* Category+CoreDataClass.swift */,
+				625F89D51FC7B2180001E465 /* Category+CoreDataProperties.swift */,
+				625F89D61FC7B2180001E465 /* Transaction+CoreDataClass.swift */,
+				625F89D71FC7B2180001E465 /* Transaction+CoreDataProperties.swift */,
+			);
+			name = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		625F89DD1FC7B2520001E465 /* Mock Responses */ = {
 			isa = PBXGroup;
 			children = (
 				625F89AC1FC394850001E465 /* MOCK_getAllTransactionsResponse.json */,
 			);
-			path = "Mock Responses";
+			name = "Mock Responses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +137,7 @@
 				TargetAttributes = {
 					6220962C1FC37010005B9439 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -154,7 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625F89DB1FC7B2180001E465 /* Transaction+CoreDataProperties.swift in Sources */,
+				625F89DA1FC7B2180001E465 /* Transaction+CoreDataClass.swift in Sources */,
 				625F89B11FC505A20001E465 /* MyPaisa.xcdatamodeld in Sources */,
+				625F89D91FC7B2180001E465 /* Category+CoreDataProperties.swift in Sources */,
+				625F89D81FC7B2180001E465 /* Category+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +302,7 @@
 		622096361FC37010005B9439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -290,6 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyPaisaKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +325,7 @@
 		622096371FC37010005B9439 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
