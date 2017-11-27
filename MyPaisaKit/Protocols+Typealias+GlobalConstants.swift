@@ -1,5 +1,5 @@
 //
-//  Protocols+GlobalConstants.swift
+//  Protocols+Typealias+GlobalConstants.swift
 //  MyPaisaKit
 //
 //  Created by Esha Joshi on 11/26/17.
