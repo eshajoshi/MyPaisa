@@ -14,6 +14,8 @@
 		625F89D91FC7B2180001E465 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D51FC7B2180001E465 /* Category+CoreDataProperties.swift */; };
 		625F89DA1FC7B2180001E465 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D61FC7B2180001E465 /* Transaction+CoreDataClass.swift */; };
 		625F89DB1FC7B2180001E465 /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D71FC7B2180001E465 /* Transaction+CoreDataProperties.swift */; };
+		625F89E01FC9029F0001E465 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89DF1FC9029F0001E465 /* CoreDataController.swift */; };
+		625F89E21FCA30D90001E465 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89E11FCA30D90001E465 /* Errors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		625F89D51FC7B2180001E465 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		625F89D61FC7B2180001E465 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
 		625F89D71FC7B2180001E465 /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		625F89DF1FC9029F0001E465 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		625F89E11FCA30D90001E465 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,11 @@
 			children = (
 				625F89DD1FC7B2520001E465 /* Mock Responses */,
 				625F89DC1FC7B2260001E465 /* Core Data Model */,
-				625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */,
 				622096301FC37010005B9439 /* MyPaisaKit.h */,
 				622096311FC37010005B9439 /* Info.plist */,
+				625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */,
+				625F89DF1FC9029F0001E465 /* CoreDataController.swift */,
+				625F89E11FCA30D90001E465 /* Errors.swift */,
 			);
 			path = MyPaisaKit;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 			files = (
 				625F89DB1FC7B2180001E465 /* Transaction+CoreDataProperties.swift in Sources */,
 				625F89DA1FC7B2180001E465 /* Transaction+CoreDataClass.swift in Sources */,
+				625F89E01FC9029F0001E465 /* CoreDataController.swift in Sources */,
 				625F89B11FC505A20001E465 /* MyPaisa.xcdatamodeld in Sources */,
 				625F89D91FC7B2180001E465 /* Category+CoreDataProperties.swift in Sources */,
 				625F89D81FC7B2180001E465 /* Category+CoreDataClass.swift in Sources */,
+				625F89E21FCA30D90001E465 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
