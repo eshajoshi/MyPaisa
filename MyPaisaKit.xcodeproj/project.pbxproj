@@ -16,6 +16,7 @@
 		625F89DB1FC7B2180001E465 /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89D71FC7B2180001E465 /* Transaction+CoreDataProperties.swift */; };
 		625F89E01FC9029F0001E465 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89DF1FC9029F0001E465 /* CoreDataController.swift */; };
 		625F89E21FCA30D90001E465 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89E11FCA30D90001E465 /* Errors.swift */; };
+		625F89E41FCBA99F0001E465 /* Protocols+Typealias+GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F89E31FCBA99F0001E465 /* Protocols+Typealias+GlobalConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		625F89D71FC7B2180001E465 /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		625F89DF1FC9029F0001E465 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
 		625F89E11FCA30D90001E465 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		625F89E31FCBA99F0001E465 /* Protocols+Typealias+GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocols+Typealias+GlobalConstants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				625F89AF1FC505A20001E465 /* MyPaisa.xcdatamodeld */,
 				625F89DF1FC9029F0001E465 /* CoreDataController.swift */,
 				625F89E11FCA30D90001E465 /* Errors.swift */,
+				625F89E31FCBA99F0001E465 /* Protocols+Typealias+GlobalConstants.swift */,
 			);
 			path = MyPaisaKit;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625F89E41FCBA99F0001E465 /* Protocols+Typealias+GlobalConstants.swift in Sources */,
 				625F89DB1FC7B2180001E465 /* Transaction+CoreDataProperties.swift in Sources */,
 				625F89DA1FC7B2180001E465 /* Transaction+CoreDataClass.swift in Sources */,
 				625F89E01FC9029F0001E465 /* CoreDataController.swift in Sources */,

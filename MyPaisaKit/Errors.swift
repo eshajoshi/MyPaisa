@@ -10,13 +10,16 @@ import Foundation
 
 public enum MyPaisaError: Error {
     case unableToCreatePersistentStore(Error)
+    case unableToSaveToCoreDataContext(Error)
     
     public var description: String {
         var aDescription: String
         
         switch self {
         case .unableToCreatePersistentStore(let error):
-            aDescription = "Unable to create core data persistent store \(error.localizedDescription)"
+            aDescription = "Unable to create core data persistent store. Error = \(error.localizedDescription)"
+        case .unableToSaveToCoreDataContext(let error):
+            aDescription = "Unable to save changes to core data context. Error = \(error.localizedDescription)"
         }
         
         return aDescription
