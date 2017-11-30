@@ -51,6 +51,10 @@ public class CoreDataController {
     
     // MARK: - Instance functions
     
+    public init() {
+        print("In CoreDataController")
+    }
+    
     /**
      Save the changes of the passed in managed object context. If there is an error in saving the changes, all managed objects will be restored to their last committed values.
      

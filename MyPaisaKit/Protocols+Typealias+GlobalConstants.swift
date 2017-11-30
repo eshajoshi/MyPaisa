@@ -50,12 +50,45 @@ public protocol JSONConvertable {
 /// Function to create or update Core data entities based on the passed in single JSON object (returned from the network request)
 public protocol EntityCreatable {
     
-    // ** SOMETHING - I'll figure this out later
+    /**
+     Generic function to create or update a given class in core data
+     
+     - parameter JSON: the JSON specifying the attributes of the entity to be created / updated
+     - parameter context: the background context
+     
+    */
+    func createOrUpdate(with JSON: [String : Any], inContext context: NSManagedObjectContext) -> NSManagedObject
 }
 
 // MARK: - Typealias
 
 public typealias StorageCompletion = (MyPaisaError?) -> ()
+
+// MARK: - Public Enums
+
+public enum CategoryType: String {
+    case fulton2079 = "2079 Fulton"
+    case yolo = "Yolo"
+    case health = "Health"
+    case alc = "Alc"
+    case food = "Food"
+    case coffee = "Coffee"
+    case tea = "Tea"
+    case misc = "Miscellaneous"
+    case gas = "Gas"
+    case transportation = "Transportation"
+    case grocery = "Grocery"
+    case paycheck = "Paycheck"
+    case fitness = "Fitness"
+    case clothing = "Clothing"
+    case reimbursement = "Reimbursement"
+    case rent = "Rent"
+    case travel = "Travel"
+    case subscriptions = "Subscriptions"
+    case medical = "Medical"
+    case creditPayment = "Credit Payment"
+    case mutualFundsPayment = "Mutual Funds Payment"
+}
 
 // MARK: - Global Constants
 
